@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>ARTE.com</title>
-	 <!-- google-fonts -->
-    <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- //google-fonts -->
@@ -15,6 +13,216 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
 <body>
-	
+	    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke px-0">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fab fa-accusoft icon-color mr-1"></i>Arte<span>.com</span>
+                    </a>
+                </h1>
+                <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
+                        <!-- search button -->
+                        <div class="search-right ml-lg-3">
+                            <form action="#search" method="GET" class="search-box position-relative">
+                                <input type="search" placeholder="Enter Keyword" name="search" required="required"
+                                    autofocus="" class="search-popup">
+                                <button type="submit" class="btn search-btn"><i class="fa fa-search"
+                                        aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                        <!-- //search button -->
+                    </ul>
+                </div>
+                <!-- //search button -->
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+
+    <!-- banner section -->
+    <section id="home" class="w3l-banner py-5">
+        <div class="banner-image">
+
+        </div>
+        <div class="banner-content">
+            <div class="container pt-5 pb-md-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 pt-md-0 pt-4">
+                        <h3 class="mb-lg-4 mb-3 title">Somos <span class="typed-text"></span><span
+                                class="cursor">&nbsp</span></h3>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur
+                            magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+                        <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
+                            <a class="btn button-style" href="about.html">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-md-0 mt-4">
+                        <img class="img-fluid" src="assets/images/bann1.png" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner section -->
+
+    <!-- about section -->
+    <div class="w3l-content-photo-5 py-5">
+        <div class="container py-lg-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 content-photo order-md-first order-last">
+                    <a href="#image"><img src="assets/images/home-ab.png" class="img-fluid" alt="content-photo"></a>
+                </div>
+                <div class="col-md-6 content-left mb-md-0 mb-5 pl-lg-5 order-md-last order-first">
+                    <h3 class="mb-3">Bienvenidos A Nuestro Sitio</h3>
+                    <p>Aptent taciti sociosqu ad litora
+                        conubia nostra, per inceptos himenaeos. Aenean olutpat elementum ante.</p>
+                    <p class="mt-3">Nunc vel pellentesque. Class aptent taciti sociosqu ad litora
+                        torquent per
+                        conubia nostra, per inceptos himenaeos. Aenean volutpat elementum ante, id eleifend eros
+                        luctus sit
+                        amet. Tncidunt erat neque non ipsum.</p>
+                    <a class="btn button-style mt-lg-5 mt-4" href="about.html">Más </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //about section -->
+
+    <!-- blog section -->
+    <section class="w3l-blog-sec pt-5">
+        <div class="services-layout py-md-4 py-3">
+            <div class="container">
+                <div class="text-center mb-sm-5 mb-4">
+                    <label class="sub-title mb-2">Artículos</label>
+                    <h3 class="title-big">Blog Posts</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 column column-img" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog1.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Nunc consequat justo</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>9
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>9 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 column column-img mt-md-0 mt-5" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog2.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Fusce ac eros quis</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>9
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>8 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-5 column column-img" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog3.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Cras fringilla enim</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>6
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>9 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //blog section -->
+
+
 </body>
 </html>
